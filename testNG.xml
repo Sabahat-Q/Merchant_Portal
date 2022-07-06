@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="One click checkout regression suite" thread-count="1">
+    <listeners>
+        <listener class-name="com.qisstpay.listeners.TestListener" />
+    </listeners>
+
+    <test name="Regression Test Suite ">
+        <classes>
+            <class name="com.qisstpay.testcases.SignInTestCases"></class>
+        </classes>
+
+    </test>
+
+</suite> <!-- Suite -->
